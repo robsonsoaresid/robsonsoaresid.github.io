@@ -1,0 +1,21 @@
+.hero .hero-img,
+.bottom-hero .hero-img {
+  height: 550px;
+  width: 100%;
+}
+.hero .hero-img {
+  background: url(../img/bg-santa-luzia-hero-mobile2.png) no-repeat;
+  background-size: cover;
+}
+.bottom-hero .hero-img {
+  background: url() no-repeat;
+  background-size: cover;
+}
+.hero h2 {
+  padding: 88px 24px;
+  margin: 0;
+  font-weight: var(--menu-text-weight);
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
