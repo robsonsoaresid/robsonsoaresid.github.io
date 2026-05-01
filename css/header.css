@@ -1,0 +1,57 @@
+.main-header {
+  background-color: var(--header-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 38px 48px;
+  position: relative;
+}
+.logo {
+  display: inline-block;
+  width: 68px;
+  height: 64px;
+}
+
+.logo img {
+  width: 68px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.img-mobile {
+  display: block;
+}
+.img-desktop {
+  display: none;
+}
+.navigation-menu {
+  margin-top: 24px;
+}
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-terciary-color);
+}
+nav {
+  display: none;
+}
+.list {
+  list-style: none;
+}
+.list-item {
+  margin: 16px;
+}
+.list-item-links {
+  color: var(--text-secundary-color);
+  text-decoration: none;
+  font-weight: var(--menu-text-weight);
+  font-size: 24px;
+}
+/* aki */
+.list-item-links.active {
+  text-decoration: underline;
+}
