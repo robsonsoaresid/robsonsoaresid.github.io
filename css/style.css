@@ -1,4 +1,5 @@
 @import url(header.css);
+@import url(hero.css);
 
 @font-face {
   font-family: "Montserrat";
@@ -8,7 +9,11 @@
 }
 
 :root {
-  --header-color: #2f4a5a;
+  --azul-suave-color: #7f9fb3;
+  --azul-escuro-color: #2f4a5a;
+  --bege-envelhecido-color: #d8c9b1;
+  --cinza-claro-color: #e6e6e6;
+
   --primary-color: #8f0101;
   --secundary-color: #b81515;
   --border-color: #d9d9d9;

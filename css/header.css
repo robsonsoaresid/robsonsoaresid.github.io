@@ -1,5 +1,5 @@
 .main-header {
-  background-color: var(--header-color);
+  background-color: var(--azul-escuro-color);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -35,7 +35,7 @@ input[type="checkbox"]:checked ~ nav {
   top: 100%;
   left: 0;
   width: 100%;
-  background-color: var(--header-color);
+  background-color: transparent;
 }
 nav {
   display: none;
