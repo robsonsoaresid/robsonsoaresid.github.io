@@ -15,8 +15,9 @@
 
 .logo img {
   width: 68px;
-  height: 64px;
+  height: auto;
   object-fit: contain;
+  image-rendering: webkit-opttimize-contrast;
 }
 
 .img-mobile {
@@ -34,7 +35,7 @@ input[type="checkbox"]:checked ~ nav {
   top: 100%;
   left: 0;
   width: 100%;
-  background-color: var(--background-terciary-color);
+  background-color: var(--header-color);
 }
 nav {
   display: none;
